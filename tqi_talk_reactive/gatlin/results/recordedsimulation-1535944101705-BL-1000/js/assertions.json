@@ -1,0 +1,10 @@
+{
+  "simulation": "livrosSim.RecordedSimulation",
+  "simulationId": "recordedsimulation",
+  "start": 1535944101705,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}
