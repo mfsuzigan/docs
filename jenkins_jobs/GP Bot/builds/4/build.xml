@@ -1,0 +1,110 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.25">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>usuario</name>
+          <description>Usuário TQI. Exemplo: jose.silva</description>
+          <value>michel.suzigan</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.PasswordParameterValue>
+          <name>senha</name>
+          <description>Senha TQI</description>
+          <value>{AQAAABAAAAAQbleCBmgb8PURAM2Gg92Xh5dtKDhyayMI5P8PgFvG/fo=}</value>
+        </hudson.model.PasswordParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>atividade</name>
+          <description>Código ou nome exato da desenvolvida no TQI-GP. Exemplo: Codificação ou 1 para atividade de codificação.</description>
+          <value>1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>aplicativo</name>
+          <description>Nome do aplicativo.</description>
+          <value>PagSeguro</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>hoje</name>
+          <description>Lançar somente hoje?</description>
+          <value>N</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>usuario</string>
+        <string>senha</string>
+        <string>atividade</string>
+        <string>aplicativo</string>
+        <string>hoje</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.11">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>51</queueId>
+  <timestamp>1537151540322</timestamp>
+  <startTime>1537151540330</startTime>
+  <result>FAILURE</result>
+  <duration>518</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    stages{
+        stage(&apos;StartNotification&apos;){
+            slackSend channel: &quot;${env.canal}&quot;, message: &quot;Iniciando lançamento do TQI-GP para o usuário ${env.usuario}&quot;
+        }
+        stage(&apos;GPApp&apos;){
+            sh &apos;&apos;&apos;#!/bin/sh
+                cd release/gp-bot
+                java -jar gp-bot.jar --usuario=${env.usuario} --senha=${env.senha} --atividade=${env.atividade} --aplicativo=${env.aplicativo} --hoje=${env.hoje}
+            &apos;&apos;&apos;
+        }
+        stage(&apos;SuccessNotification&apos;){
+            slackSend channel: &quot;${env.canal}&quot;, message: &quot;Finalizado lançamento do TQI-GP (&lt;${env.BUILD_URL}|Detalhes&gt;)&quot;
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>164090497</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>16753286</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>427835278</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>44268138</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>25847051</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

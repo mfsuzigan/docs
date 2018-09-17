@@ -1,0 +1,31 @@
+Started by user unknown or anonymous
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4IVQIiUhUzsPF96pyZjSfnoDs9vYphMNlsxj46HVUpFVAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKK2vVLpcJb0ykYmByZOBLSc1L70kw4eBubQop4RByCcrsSxRPycxL10/uKQoMy/dGmicFJpxzhAa3d4CIIO9hEFYPzk/t6C0JLVIXyM3sRhIa+oDAFAjsbDIAAAA[0mJenkins in /var/lib/jenkins/jobs/GP Bot/workspace@2
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (StartNotification)
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] slackSend
+run slackstepsend, step null:false, desc pVawBAmA4TP5usEI2JZnvV8U:false
+Slack Send Pipeline step configured values from global config - baseUrl: true, teamDomain: true, token: true, channel: false, color: true
+ERROR: Slack notification failed. See Jenkins logs for details.
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (GPApp)
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace@2] Running shell script
++ java -jar release/gp-bot/gp-bot.jar --usuario=michel.suzigan --senha=m68456845 --atividade=1 --aplicativo=PagSeguro --hoje=N
+Error: Unable to access jarfile release/gp-bot/gp-bot.jar
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (FinishNotification)
+Stage "FinishNotification" skipped due to earlier failure(s)
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

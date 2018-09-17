@@ -1,0 +1,68 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.25">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>usuario</name>
+          <description>Usuário TQI. Exemplo: jose.silva</description>
+          <value>michel.suzigan</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.PasswordParameterValue>
+          <name>senha</name>
+          <description>Senha TQI</description>
+          <value>{AQAAABAAAAAQ5Yw83V95+9NiT1LKHBhZJ0L2Rm9Zfb3JvnM0uuehtJY=}</value>
+        </hudson.model.PasswordParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>atividade</name>
+          <description>Código ou nome exato da atividade desenvolvida no TQI-GP. Exemplo: Codificação ou 1 para atividade de codificação.</description>
+          <value>1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>aplicativo</name>
+          <description>Nome do aplicativo.</description>
+          <value>PagSeguro</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>hoje</name>
+          <description>Lançar somente hoje?</description>
+          <value>N</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>canal</name>
+          <description>Canal no Slack para notificações</description>
+          <value>@tqi_msuzigan</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>usuario</string>
+        <string>senha</string>
+        <string>atividade</string>
+        <string>aplicativo</string>
+        <string>hoje</string>
+        <string>canal</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.11">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>87</queueId>
+  <timestamp>1537153978496</timestamp>
+  <startTime>1537153978503</startTime>
+  <result>FAILURE</result>
+  <duration>53</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

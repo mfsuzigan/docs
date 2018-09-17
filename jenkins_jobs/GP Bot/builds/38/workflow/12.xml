@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.20">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.55">
+    <parentIds>
+      <string>11</string>
+    </parentIds>
+    <id>12</id>
+    <descriptorId>jenkins.plugins.slack.workflow.SlackSendStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.29">
+      <startTime>1537155854261</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.55">
+      <arguments>
+        <entry>
+          <string>channel</string>
+          <wf.a.ArgumentsAction_-NotStoredReason>MASKED_VALUE</wf.a.ArgumentsAction_-NotStoredReason>
+        </entry>
+        <entry>
+          <string>color</string>
+          <string>good</string>
+        </entry>
+        <entry>
+          <string>message</string>
+          <string>Finalizado lançamento do TQI-GP (&lt;http://localhost:8080/job/GP%20Bot/38/|detalhes do build&gt;)</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

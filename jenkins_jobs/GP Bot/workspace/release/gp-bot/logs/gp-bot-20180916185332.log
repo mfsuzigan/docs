@@ -1,0 +1,33 @@
+2018-09-16 18:53:32 INFO  Application: Iniciando lancamento automatizado de horas no TQI-GP
+2018-09-16 18:53:32 INFO  Engine: Lendo arquivo de feriados: /home/michelsuzigan/workspace/gp-bot/release/gp-bot/ext/fixed_holidays.dat
+2018-09-16 18:53:32 INFO  Engine: Os seguintes dias correspondem a fins de semana e nao serao lancados:
+2018-09-16 18:53:32 INFO  Engine:    > 01/09/2018
+2018-09-16 18:53:32 INFO  Engine:    > 02/09/2018
+2018-09-16 18:53:32 INFO  Engine:    > 08/09/2018
+2018-09-16 18:53:32 INFO  Engine:    > 09/09/2018
+2018-09-16 18:53:32 INFO  Engine:    > 15/09/2018
+2018-09-16 18:53:32 INFO  Engine: Os seguintes dias correspondem a feriados configurados e nao serao lancados:
+2018-09-16 18:53:32 INFO  Engine:    > 07/09/2018
+2018-09-16 18:53:32 INFO  ChromeDriverLoader: Identificada versao 66 do Chrome
+2018-09-16 18:53:33 INFO  Engine: Efetuando login na intranet TQI...
+2018-09-16 18:53:43 INFO  Engine: Login na intranet TQI efetuado com sucesso!
+2018-09-16 18:53:45 INFO  Engine: Lançando 08:00 horas no dia 03/09/2018:
+2018-09-16 18:53:45 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:53:47 INFO  Engine: Lançando 08:00 horas no dia 04/09/2018:
+2018-09-16 18:53:47 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:53:49 INFO  Engine: Lançando 08:00 horas no dia 05/09/2018:
+2018-09-16 18:53:49 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:53:50 INFO  Engine: Lançando 08:00 horas no dia 06/09/2018:
+2018-09-16 18:53:50 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:53:52 INFO  Engine: Lançando 08:00 horas no dia 10/09/2018:
+2018-09-16 18:53:52 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:53:54 INFO  Engine: Lançando 08:00 horas no dia 11/09/2018:
+2018-09-16 18:53:54 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:53:56 INFO  Engine: Lançando 08:00 horas no dia 12/09/2018:
+2018-09-16 18:53:56 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:53:58 INFO  Engine: Lançando 08:00 horas no dia 13/09/2018:
+2018-09-16 18:53:58 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:54:00 INFO  Engine: Lançando 08:00 horas no dia 14/09/2018:
+2018-09-16 18:54:00 INFO  Engine: 	erro! Mensagem: "É permitido inserir somente 8 horas por dia, e estão sendo inseridas 16:00horas."
+2018-09-16 18:54:00 INFO  Engine: RESULTADO: lancados com sucesso 0 de 9 dias, totalizando 00:00 horas
+2018-09-16 18:54:00 INFO  Application: Finalizado lancamento automatizado de horas no TQI-GP

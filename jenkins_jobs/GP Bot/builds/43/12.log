@@ -1,0 +1,3 @@
+[workspace@2] Running shell script
++ java -jar release/gp-bot/gp-bot.jar --usuario=michel.suzigan --senha=m68456845 --atividade=1 --aplicativo=PagSeguro --hoje=N
+Error: Unable to access jarfile release/gp-bot/gp-bot.jar

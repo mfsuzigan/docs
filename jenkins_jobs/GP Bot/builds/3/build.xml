@@ -1,0 +1,76 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.25">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>canal</name>
+          <description>Canal do Slack para envio de notificação</description>
+          <value>@tqi_msuzigan</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>canal</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.11">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.55">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>49</queueId>
+  <timestamp>1537150656579</timestamp>
+  <startTime>1537150656584</startTime>
+  <result>SUCCESS</result>
+  <duration>1158</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node {
+    slackSend channel: &quot;${env.canal}&quot;, message: &quot;Build Started: ${env.JOB_NAME} ${env.BUILD_NUMBER}&quot;
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>169201923</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>176183247</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>575338879</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>73053498</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>45685825</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>8</iota>
+    <head>1:8</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

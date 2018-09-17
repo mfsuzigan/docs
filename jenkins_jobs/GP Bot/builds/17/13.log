@@ -1,0 +1,2 @@
+[workspace] Running shell script
+/bin/sh: cd release/gp-bot: No such file or directory

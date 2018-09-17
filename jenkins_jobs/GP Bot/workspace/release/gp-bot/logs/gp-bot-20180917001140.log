@@ -1,0 +1,13 @@
+2018-09-17 00:11:40 INFO  Application: Iniciando lancamento automatizado de horas no TQI-GP
+2018-09-17 00:11:40 INFO  Engine: Lendo arquivo de feriados: /var/lib/jenkins/jobs/GP Bot/workspace/release/gp-bot/ext/fixed_holidays.dat
+2018-09-17 00:11:40 INFO  Engine: Os seguintes dias correspondem a fins de semana e nao serao lancados:
+2018-09-17 00:11:40 INFO  Engine:    > 01/09/2018
+2018-09-17 00:11:40 INFO  Engine:    > 02/09/2018
+2018-09-17 00:11:40 INFO  Engine:    > 08/09/2018
+2018-09-17 00:11:40 INFO  Engine:    > 09/09/2018
+2018-09-17 00:11:40 INFO  Engine:    > 15/09/2018
+2018-09-17 00:11:40 INFO  Engine:    > 16/09/2018
+2018-09-17 00:11:40 INFO  Engine: Os seguintes dias correspondem a feriados configurados e nao serao lancados:
+2018-09-17 00:11:40 INFO  Engine:    > 07/09/2018
+2018-09-17 00:11:41 INFO  ChromeDriverLoader: Identificada versao 66 do Chrome
+2018-09-17 00:11:42 INFO  Engine: Efetuando login na intranet TQI...

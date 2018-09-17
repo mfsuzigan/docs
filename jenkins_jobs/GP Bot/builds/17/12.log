@@ -1,0 +1,3 @@
+[workspace] Running shell script
++ pwd
+/var/lib/jenkins/jobs/GP Bot/workspace

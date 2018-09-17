@@ -1,0 +1,78 @@
+Started by user unknown or anonymous
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4IVQIiUhUzsPF96pyZjSfnoDs9vYphMNlsxj46HVUpFVAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKK2vVLpcJb0ykYmByZOBLSc1L70kw4eBubQop4RByCcrsSxRPycxL10/uKQoMy/dGmicFJpxzhAa3d4CIIO9hEFYPzk/t6C0JLVIXyM3sRhIa+oDAFAjsbDIAAAA[0mJenkins in /var/lib/jenkins/jobs/GP Bot/workspace
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (StartNotification)
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] slackSend
+run slackstepsend, step null:false, desc pVawBAmA4TP5usEI2JZnvV8U:false
+Slack Send Pipeline step configured values from global config - baseUrl: true, teamDomain: true, token: true, channel: false, color: true
+ERROR: Slack notification failed. See Jenkins logs for details.
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (GPApp)
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace] Running shell script
++ java -jar release/gp-bot/gp-bot.jar --usuario=michel.suzigan --senha=m68456845 --atividade=1 --aplicativo=PagSeguro --hoje=N
+2018-09-17 01:05:28 INFO  Application - Iniciando lancamento automatizado de horas no TQI-GP
+2018-09-17 01:05:28 INFO  Engine - Lendo arquivo de feriados: /var/lib/jenkins/jobs/GP Bot/workspace/release/gp-bot/ext/fixed_holidays.dat
+2018-09-17 01:05:28 INFO  Engine - Os seguintes dias correspondem a fins de semana e nao serao lancados:
+2018-09-17 01:05:28 INFO  Engine -    > 01/09/2018
+2018-09-17 01:05:28 INFO  Engine -    > 02/09/2018
+2018-09-17 01:05:28 INFO  Engine -    > 08/09/2018
+2018-09-17 01:05:28 INFO  Engine -    > 09/09/2018
+2018-09-17 01:05:28 INFO  Engine -    > 15/09/2018
+2018-09-17 01:05:28 INFO  Engine -    > 16/09/2018
+2018-09-17 01:05:28 INFO  Engine - Os seguintes dias correspondem a feriados configurados e nao serao lancados:
+2018-09-17 01:05:28 INFO  Engine -    > 07/09/2018
+2018-09-17 01:05:28 INFO  ChromeDriverLoader - Identificada versao 66 do Chrome
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 25806
+Only local connections are allowed.
+Sep 17, 2018 1:05:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+2018-09-17 01:05:30 INFO  Engine - Efetuando login na intranet TQI...
+Aborted by [8mha:////4PgnMOWfwnek6kdmnPBEwi1e21i928uJ60NQ8zRt/p/UAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKK2vVLpcJb0ykYmByZOBLSc1L70kw4eBubQop4RByCcrsSxRPycxL10/uKQoMy/dGmicFJpxzhAa3d4CIIO9hIFXv7Q4tUi/NC87L788DwAdXlYlwgAAAA==[0munknown
+Sending interrupt signal to process
+After 10s process did not stop
+[8mha:////4CLm9YPJWECs7cvJib4XLq/wPRTgU2S62yXeglVDcGDyAAAA9R+LCAAAAAAAAP9djLFOwzAURV9SwYw6AhOIheE5QpWoygZIgFSVSuUHTDCOE+Nn7GfaMsD3IDHyJ0z8AFtnBhaCMsFd7lnOeV3BWgxwSkFjrVxjXCwNept0Szin0NxammNM3lNgjKx8RON8Ypxezq7Ol14Fa1wzIVYbH723r8PvzxyyMfRSsAz9cS0fpLDSaTHjYJw+WgTYrtJNJIcluUhW4Z/K83Ln/XHrReaQX8C6VU5z1eXu4QmyVt/8p590/ytDtywHWPgWkCHbZdivmP1ICEultBVFHg2LYSFquhZn072D4phYDAaCVbj7AVKe9U8RAQAA[0mClick here to forcibly terminate running steps
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (FinishNotification)
+Stage "FinishNotification" skipped due to earlier failure(s)
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4OxyZbQxLJy5WDO4yTXqSzsorlufxYiC2s1BMWr2du1YAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at hudson.util.ProcessTree$UnixProcess.kill(ProcessTree.java:774)
+	at hudson.util.ProcessTree$UnixProcess.killRecursively(ProcessTree.java:808)
+	at hudson.util.ProcessTree$UnixProcess.killRecursively(ProcessTree.java:803)
+	at hudson.util.ProcessTree$UnixProcess.killRecursively(ProcessTree.java:803)
+	at hudson.util.ProcessTree$UnixProcess.killRecursively(ProcessTree.java:803)
+	at hudson.util.ProcessTree$UnixProcess.killRecursively(ProcessTree.java:803)
+	at hudson.util.ProcessTree$UnixProcess.killRecursively(ProcessTree.java:795)
+	at hudson.util.ProcessTree$Unix.killAll(ProcessTree.java:699)
+	at hudson.Launcher$LocalLauncher.kill(Launcher.java:954)
+	at org.jenkinsci.plugins.durabletask.FileMonitoringTask$FileMonitoringController.stop(FileMonitoringTask.java:304)
+	at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.stop(DurableTaskStep.java:258)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.stop(CpsThread.java:296)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1139)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1128)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$4$1.run(CpsFlowExecution.java:906)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:35)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Finished: ABORTED

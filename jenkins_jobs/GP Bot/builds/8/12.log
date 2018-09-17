@@ -1,0 +1,2 @@
+[workspace] Running shell script
+/var/lib/jenkins/jobs/GP Bot/workspace@tmp/durable-07a2b07d/script.sh: line 3: --usuario=${env.usuario}: bad substitution

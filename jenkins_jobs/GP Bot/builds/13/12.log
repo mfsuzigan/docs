@@ -1,0 +1,2 @@
+[workspace] Running shell script
+/bin/bash: cd release/gp-bot && java -jar gp-bot.jar --usuario=michel.suzigan --senha=m68456845 --atividade=1 --aplicativo=Pag: No such file or directory
