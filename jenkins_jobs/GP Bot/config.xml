@@ -20,11 +20,6 @@
           <defaultValue>michel.suzigan</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
-        <hudson.model.PasswordParameterDefinition>
-          <name>senha</name>
-          <description>Senha TQI</description>
-          <defaultValue>{AQAAABAAAAAQva7jFN2YoVdFgI+7QHpRQvRB1jM/DS4s9+LVKDFaItI=}</defaultValue>
-        </hudson.model.PasswordParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>atividade</name>
           <description>Código ou nome exato da atividade desenvolvida no TQI-GP. Exemplo: Codificação ou 1 para atividade de codificação.</description>
@@ -67,7 +62,10 @@
         }
         stage(&apos;GPApp&apos;){
             steps {
-                sh &quot;java -jar release/gp-bot/gp-bot.jar --usuario=${params.usuario} --senha=${params.senha} --atividade=${params.atividade} --aplicativo=${params.aplicativo} --hoje=${params.hoje}&quot;
+                withCredentials([string(credentialsId: &apos;senhaTQI&apos;, variable: &apos;senhaTQI&apos;)]) {
+                    sh &quot;java -jar release/gp-bot/gp-bot.jar --usuario=${params.usuario} --senha=${senhaTQI} --atividade=${params.atividade} --aplicativo=${params.aplicativo} --hoje=${params.hoje}&quot;
+                }   
+                slackSend channel: &quot;${params.canal}&quot;, color: &quot;good&quot;, message: &quot;TQI-GP lançado com sucesso!&quot;
             }
         }
         stage(&apos;FinishNotification&apos;){

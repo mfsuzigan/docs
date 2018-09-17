@@ -1,0 +1,45 @@
+2018-09-17 01:13:27 INFO  Application: Iniciando lancamento automatizado de horas no TQI-GP
+2018-09-17 01:13:27 INFO  Engine: Lendo arquivo de feriados: /var/lib/jenkins/jobs/GP Bot/workspace/release/gp-bot/ext/fixed_holidays.dat
+2018-09-17 01:13:27 INFO  Engine: Os seguintes dias correspondem a fins de semana e nao serao lancados:
+2018-09-17 01:13:27 INFO  Engine:    > 01/09/2018
+2018-09-17 01:13:27 INFO  Engine:    > 02/09/2018
+2018-09-17 01:13:27 INFO  Engine:    > 08/09/2018
+2018-09-17 01:13:27 INFO  Engine:    > 09/09/2018
+2018-09-17 01:13:27 INFO  Engine:    > 15/09/2018
+2018-09-17 01:13:27 INFO  Engine:    > 16/09/2018
+2018-09-17 01:13:27 INFO  Engine: Os seguintes dias correspondem a feriados configurados e nao serao lancados:
+2018-09-17 01:13:27 INFO  Engine:    > 07/09/2018
+2018-09-17 01:13:27 INFO  ChromeDriverLoader: Identificada versao 66 do Chrome
+2018-09-17 01:13:29 INFO  Engine: Efetuando login na intranet TQI...
+2018-09-17 01:16:38 ERROR Application: Erro ao lancar horas no TQI-GP
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"userName"}
+  (Session info: headless chrome=66.0.3359.117)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Linux 4.11.12-100.fc24.x86_64 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'trbw2k_node', ip: '92.242.140.6', os.name: 'Linux', os.arch: 'amd64', os.version: '4.11.12-100.fc24.x86_64', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 9d9e8ec045535c800e7aa23084665ec7
+*** Element info: {Using=id, value=userName}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.mfs.gpbot.core.Engine.loginTQI(Engine.java:282)
+	at org.mfs.gpbot.core.Engine.execute(Engine.java:53)
+	at org.mfs.gpbot.Application.main(Application.java:29)
+2018-09-17 01:16:38 INFO  Application: Finalizado lancamento automatizado de horas no TQI-GP

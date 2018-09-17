@@ -159,11 +159,15 @@
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.55">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
   </actions>
   <queueId>131</queueId>
   <timestamp>1537157338992</timestamp>
   <startTime>1537157338997</startTime>
-  <duration>0</duration>
+  <result>SUCCESS</result>
+  <duration>205569</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
@@ -193,7 +197,7 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>110182293</long>
+        <long>172336665</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -201,7 +205,7 @@
       </entry>
       <entry>
         <string>run</string>
-        <long>603628355</long>
+        <long>785945654</long>
       </entry>
       <entry>
         <string>parse</string>
@@ -209,29 +213,15 @@
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>74566592</long>
+        <long>106164855</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>12</iota>
-    <head>1:12</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>22</iota>
+    <head>1:22</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
-  <logsToCopy class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
-    <unserializable-parents/>
-    <java.util.concurrent.ConcurrentSkipListMap>
-      <default/>
-      <string>10</string>
-      <long>0</long>
-      <string>12</string>
-      <long>1354</long>
-      <string>3</string>
-      <long>336</long>
-      <null/>
-    </java.util.concurrent.ConcurrentSkipListMap>
-  </logsToCopy>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>
